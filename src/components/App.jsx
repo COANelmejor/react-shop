@@ -1,8 +1,8 @@
-import React from 'React';
+import React from 'react';
 
 const App = () => {
     return (
-        <h1>Hola Mundo</h1>
+        <h1>Hola Mundo, Bienvenido al curso práctico de React!</h1>
     );
 };
 
