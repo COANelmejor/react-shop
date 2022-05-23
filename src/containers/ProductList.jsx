@@ -6,7 +6,7 @@ const ProductList = () => {
     return (
         <section className="main-container">
             <div className="ProductList">
-                <ProductItem />
+                { Array(10).fill(null).map((item, index) => <ProductItem key={index} />) }
             </div>
         </section>
     );
