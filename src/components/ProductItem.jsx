@@ -18,7 +18,7 @@ const ProductItem = ({product}) => {
                     <p>${product.price}</p>
                     <p>{product.title}</p>
                 </div>
-                <figure onClick={() => handleCart(product)} >
+                <figure className="addToCart" onClick={() => handleCart(product)} >
                     <img src={bt_add_to_cart} alt="" />
                 </figure>
             </div>
